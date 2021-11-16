@@ -1,0 +1,24 @@
+algoritmo "media"
+// Função :
+// Autor : RoberJr
+// Data : 15/11/2021
+// Seção de Declarações 
+var
+n1, n2: inteiro
+m: real
+
+inicio
+// Seção de Comandos
+
+escreval
+escreva ("Digite um numero: ")
+leia (N1)
+
+escreva ("Digite outro numero: ")
+leia (n2)
+
+m <- (n1+n2) / 2
+
+escreval ("A media entre ", n1, " e" , n2, ", é igual a" , m, ".")
+
+fimalgoritmo
