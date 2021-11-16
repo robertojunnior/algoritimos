@@ -1,0 +1,31 @@
+algoritmo "operadores aritmeticos"
+// Função :
+// Autor :
+// Data : 15/11/2021
+// Seção de Declarações 
+
+// + Soma
+// - Subtracao
+// * Multiplicacao
+// / Divisao (comum)
+// \ Divisao inteira (Apenas o primeiro resultado)
+// % Modulo (Resto da Divisao, ou o numero que sobra da inteira)
+// ^ Exponenciacao (Elevado a ele mesmo)
+
+// ORDEM DE PRECEDENCIA
+// 1 - Parenteses ()
+// 2 - ^ Exponenciacao
+// 3 - */ Mult e Divisao
+// 4 - +- Soma e Subt
+
+// exemplo: 3 + 2 / 2 = 4 ( Primeiro a divisao )
+//         (3 + 2) / 2 = 2.5 ( Primeiro Parenteses )
+
+
+var
+
+
+inicio
+// Seção de Comandos 
+
+fimalgoritmo
