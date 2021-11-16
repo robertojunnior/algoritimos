@@ -1,0 +1,26 @@
+algoritmo "entradas e soma"
+// Função : soma 
+// Autor : RoberJr
+// Data : 15/11/2021
+// Seção de Declarações
+// Utilizado VisuALG 2.5 para execução nos exemplos
+
+var
+n1, n2, s: inteiro
+
+
+inicio
+// Seção de Comandos
+
+escreval
+escreva ("Digite um numero: ")
+leia (N1)
+
+escreva ("Digite outro numero: ")
+leia (n2)
+s <- n1+n2
+escreval ("A soma entre ", n1, " e" , n2, ", é igual a" , s, ".")
+
+
+
+fimalgoritmo
