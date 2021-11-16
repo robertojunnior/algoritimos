@@ -1,0 +1,17 @@
+algoritmo "MeuNome"
+// Função : leia
+// Autor : RoberJr
+// Data : 15/11/2021
+// Seção de Declarações 
+var
+
+nome: caractere
+
+inicio
+// Seção de Comandos 
+
+   escreval ("Digite seu nome: ")
+   leia (nome)
+   escreva ("Muito prazer ", nome)
+
+fimalgoritmo
