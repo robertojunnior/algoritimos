@@ -1,0 +1,23 @@
+algoritmo "primeiro_codigo_em_portugol"
+// Função :
+// Autor :
+// Data : 15/11/2021
+// Seção de Declarações
+ 
+var
+
+   msg: caractere
+   mdc: caractere
+
+inicio
+
+// Seção de Comandos
+// a letra L no final do "escreva" significa pular uma linha após
+
+msg <- "ola Mundo!"
+mdc <- "ola, Planeta!"
+escreval ("mensagem, ", msg)
+escreval (mdc)
+
+
+fimalgoritmo
