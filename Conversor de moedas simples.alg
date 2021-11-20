@@ -14,14 +14,14 @@ var
 inicio
 // Seção de Comandos 
 
-   escreva ("Quantos Reais você deseja converter para Dólar? ")
+   escreva ("Quantos Reais você deseja converter? ")
    leia (reais)
    escreva ("Para qual moeda deseja converter? ")
    leia (moeda)
    escreva ("Qual a cotação da moeda hoje? ")
    leia (cotacao)
    resposta <- (reais / cotacao)
-   escreval ("Você possui um total em ", moeda, " de $", resposta)
+   escreval ("Você possui um total em ", moeda, " de $", resposta:5:2)
 
 fimalgoritmo
 
