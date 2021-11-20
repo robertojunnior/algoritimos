@@ -1,9 +1,9 @@
 algoritmo "Conversor de Moeda"
-// Função : conversor
+// FunÃ§Ã£o : conversor
 // Autor :      Rober Junior
 // Data : 20/11/2021
-// Seção de Declarações
-// Coversor simples de moeda baseado no input do usuário.
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
+// Coversor simples de moeda baseado no input do usuÃ¡rio.
  
 var
 
@@ -12,16 +12,16 @@ var
 
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
-   escreva ("Quantos Reais você deseja converter para Dólar? ")
+   escreva ("Quantos Reais vocÃª deseja converter para DÃ³lar? ")
    leia (reais)
    escreva ("Para qual moeda deseja converter? ")
    leia (moeda)
-   escreva ("Qual a cotação da moeda hoje? ")
+   escreva ("Qual a cotaÃ§Ã£o da moeda hoje? ")
    leia (cotacao)
    resposta <- (reais / cotacao)
-   escreval ("Você possui um total de $", resposta)
+   escreval ("VocÃª possui um total em ", moeda, " de $", resposta)
 
 fimalgoritmo
 
