@@ -1,0 +1,38 @@
+algoritmo "escolhaCasoSalario"
+// Função :
+// Autor :
+// Data : 24/11/2021
+// Seção de Declarações 
+var
+     nome: caractere
+     salario, novo_salario: real
+     dependente: inteiro
+     
+inicio
+// Seção de Comandos]
+   escreval ("Olá, seja bem vindo ao calculador de salário por dependentes!")
+   escreval ("---------------------------------------------------------------")
+   escreva ("Qual o nome do funcionário? ")
+   leia (nome)
+   escreva ("Qual o salário atual do funcionário? ")
+   leia (salario)
+   escreva("Qual a quantidade de dependentes? ")
+   leia (dependente)
+
+   escolha (dependente)
+           caso 0        // casso a resposta seja "0"
+                novo_salario <- salario + (salario*5/100)
+           caso 1, 2     // caso ele tenha 1 ou 2 dependentes
+                novo_salario <- salario + (salario*10/100)
+           caso 3,4
+                novo_salario <- salario + (salario*15/100)
+           caso 5,6
+                novo_salario <- salario + (salario*18/100)
+           outrocaso
+                    novo_salario <- salario + (salario*20/100)
+   fimescolha
+   escreval ("O novo salário de ", nome ," será de R$", novo_salario:5:2)
+   escreval ("----------------------------------------")
+   escreval ("Obrigado por utilizar o calculador de salários")
+
+fimalgoritmo
