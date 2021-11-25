@@ -1,0 +1,22 @@
+algoritmo "ConteAte10"
+// Função :   Contagem com Estrutura de repetição
+// Autor :
+// Data : 25/11/2021
+// Seção de Declarações 
+var
+    valor, contador, pular: inteiro
+inicio
+// Seção de Comandos 
+   escreval ("Olá, seja bem vindo ao contador.")
+   escreval ("Você deseja contar até quanto? ")
+   leia (valor)
+   escreva ("Escolha quantas casas quer pular? Se não digite 1: ")
+   leia (pular)
+   contador <- 0
+   enquanto (contador <= valor) faca        // pode se fazer contagem regressiva, usando (contador >= 0)
+   escreval (contador)
+            contador <- contador + pular   // exemplo contador <- contador -1 com o contador com o valor 10
+
+   FimEnquanto
+   escreval ("--------------------------------")
+   escreval ("Obrigado pot utilizar o contador.")
