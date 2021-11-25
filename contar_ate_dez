@@ -4,21 +4,19 @@ algoritmo "ConteAte10"
 // Data : 25/11/2021
 // Seção de Declarações 
 var
-    contador: inteiro
+    valor, contador, pular: inteiro
 inicio
 // Seção de Comandos 
    escreval ("Olá, seja bem vindo ao contador.")
-   escreval ("Este computador vai se auto destruir em 10s")
-
+   escreval ("Você deseja contar até quanto? ")
+   leia (valor)
+   escreva ("Escolha quantas casas quer pular? Se não digite 1: ")
+   leia (pular)
    contador <- 0
-   enquanto (contador >= 10) faca        // pode se fazer contagem regressiva, usando (contador >= 0)
+   enquanto (contador <= valor) faca        // pode se fazer contagem regressiva, usando (contador >= 0)
    escreval (contador)
-            contador <- contador + 1    // e contador <- contador -1 com o contador com o valor 10
+            contador <- contador + pular   // exemplo contador <- contador -1 com o contador com o valor 10
 
    FimEnquanto
    escreval ("--------------------------------")
    escreval ("Obrigado pot utilizar o contador.")
-
-
-
-fimalgoritmo
