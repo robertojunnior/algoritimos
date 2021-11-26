@@ -1,0 +1,41 @@
+algoritmo "Cálculo de vendas"
+// Função : Irá somar suas vendas, após apontar aqunatidade e mostrar a de maior e menor valor. Por fim terá um valor médio de vendas.
+// Autor :
+// Data : 25/11/2021
+// Seção de Declarações 
+var
+
+   contador, valor, soma, maior_venda, menor_venda, t_medio: real
+   venda: inteiro
+inicio
+// Seção de Comandos
+   contador <- 1
+   soma <- 0
+   venda <- 1
+          escreva("Quantas vendas você fez? ")
+          leia(venda)
+                 enquanto (contador <= venda) faca
+                 escreva ("Digite o ", contador, "º valor da venda: ")
+                 leia (valor)
+
+                     se (valor > maior_venda)  entao
+                     maior_venda <- valor
+                             senao (valor < menor_venda) entao
+                             menor_venda <- valor
+                      fimSe
+
+                 soma <- soma + valor
+                 t_medio <- soma/venda
+                 contador <- contador + 1
+
+             fimEnquanto
+
+   escreval("-----------------------------------------")
+   escreval("A soma dos valores foi de R$", soma:5:2)
+   escreval("O valor da maior venda foi de R$", maior_venda:5:2)
+   escreval("O valor da menor venda foi de R$", menor_venda:5:2)
+   escreval("O seu ticket médio em vendas foi de R$", t_medio:5:2)
+
+
+
+fimalgoritmo
